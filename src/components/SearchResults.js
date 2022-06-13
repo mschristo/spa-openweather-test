@@ -26,6 +26,7 @@ class SearchResults extends React.Component {
                         <ResultItem
                             key={index}
                             location={location}
+                            onClick={this.props.onResultItemClick}
                         />
                     ))}
                 </ListGroup>

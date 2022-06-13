@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 class ResultItem extends React.Component {
 
     onClick = () => {
-        // @TODO ...
+        this.props.onClick(this.props.location);
     }
 
     render() {
